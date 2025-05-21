@@ -1,12 +1,13 @@
 import React from 'react';
 import './TeamSection.css';
+import vishu from '../../assets/images/vishwa.jpeg'
 
 const teamMembers = [
   {
     name: 'Dr. G. Viswanathan',
     position: 'Founder & Chancellor, VIT',
     bio: 'Chief Patron',
-    image: '/images/vishwa.jpeg',
+    image: vishu,
   },
   {
     name: 'Dr. VS Kanchana Bhaskaran',

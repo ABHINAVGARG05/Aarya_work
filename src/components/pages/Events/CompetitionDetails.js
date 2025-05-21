@@ -1,10 +1,11 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import './CompetitionDetails.css';
+import image1 from '../../../assets/images/event/image1.png'
 
 const competitionData = {
   'design-sprint': {
-    image: '/images/event/image1.png', 
+    image: image1, 
     pdf: '/docs/web_mini_project.pdf', 
     details: [
       'A fast-paced UX/UI design challenge to innovate under pressure.',

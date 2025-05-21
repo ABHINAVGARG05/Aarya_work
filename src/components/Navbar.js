@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import "./Navbar.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
+import BGLOGO from '../assets/images/logo_bw.jpeg'
+import bgLogo from '../assets/images/mechnovate_img.jpg'
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -16,12 +18,12 @@ function Navbar() {
                 
                 {/* Left ASME Logo */}
                 <Link to="/" className="navbar-logo left-logo">
-                    <img src="./images/logo_bw.jpeg" alt="ASME Logo" className="logo-img" />
+                    <img src={BGLOGO} alt="ASME Logo" className="logo-img" />
                 </Link>
 
                 {/* Center Mechnovate Logo */}
                 <div className="center-logo">
-                    <img src="./images/mechnovate_img.jpg" alt="Mechnovate Logo" className="logo-img-large" />
+                    <img src={bgLogo} alt="Mechnovate Logo" className="logo-img-large" />
                 </div>
 
                 {/* Right-side Menu */}
